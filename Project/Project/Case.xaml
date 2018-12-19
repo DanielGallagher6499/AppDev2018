@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Case"
+             BackgroundColor="Blue">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+            <!--Heading of the page-->
+            <Label Text="Welcome to Cases!"
+                TextDecorations="Underline"
+                TextColor="White"
+                FontSize="Large"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+            <!--First paragraph-->
+            <Label Text="Cases are used to place all of the parts inside. They range from large to small sizes and range from €30 to upwards of €250 depending on your budget and needs."
+                   TextColor="White"
+                   FontSize="Medium"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+            <!--First Image-->
+                <Image Source="https://i.ytimg.com/vi/e0bYDox17K8/maxresdefault.jpg" Aspect="AspectFit"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"/>
+
+                <!--Second Paragraph-->
+            <Label Text="Cases are really a small part of a computer build but really make a massive difference as they decide what parts can fit and which parts cannot. Below are some of the coolest and most aesthetically pleasing cases on the market today ranging in value."
+                   TextColor="White"
+                   FontSize="Medium"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+            
+            <!--Second Image-->
+                <Image Source="https://static.techspot.com/images2/news/bigimage/2018/11/2018-11-15-image-35.jpg" Aspect="AspectFit"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"/>
+                <!--Text below the image-->
+            <Label Text="This is a simple case. It looks simple and nice and is also cheap costing just €30. The Apex Essential Case."
+                       TextColor="White"
+                       FontSize="Medium"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>
+            <!--Third Image-->
+                <Image Source="https://i.ytimg.com/vi/53WyXFKunps/maxresdefault.jpg" Aspect="AspectFit"/>
+                <!--Text below the image-->
+            <Label Text="This is a more complex case. Its is fully transparent and allows the user to see into the inside of the computer but it is very costly coming it at over €300 for the case alone!. The Cougar Case."
+                       FontSize="Medium"
+                       TextColor="White"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"/>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

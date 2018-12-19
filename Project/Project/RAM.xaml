@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.RAM"
+             BackgroundColor="Blue">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <!--Heading of the page-->
+                <Label Text="Welcome to RAM!"
+                TextDecorations="Underline"
+                FontSize="Large"
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--First paragraph-->
+                <Label Text="Stands for Random Access Memory and is pronounced like the male sheep. RAM is made up of small memory chips that form a memory module. These modules are installed in the RAM slots on the motherboard of your computer."
+                   TextColor="White"
+                   FontSize="Medium"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+
+                <!--First Image-->
+
+                <Image Source="https://cdn1.tekrevue.com/wp-content/uploads/2014/01/20140124_ramdisk_3.jpg" Aspect="AspectFit"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"/>
+
+
+                <!--Second Paragraph-->
+                <Label Text="Every time you open a program, it gets loaded from the hard drive into the RAM. This is because reading data from the RAM is much faster than reading data from the hard drive. Running programs from the RAM of the computer allows them to function without any lag time. The more RAM your computer has, the more data can be loaded from the hard drive into the RAM, which can effectively speed up your computer. In fact, adding RAM can be more beneficial to your computer's performance than upgrading the CPU."
+                   FontSize="Medium"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+                <!--Second Image-->
+
+                <Image Source="https://coolestkickstarter.com/wp-content/uploads/2018/02/laptop-ram.jpg" Aspect="AspectFit"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"/>
+
+                <!--Last Paragraph-->
+                <Label Text="The RAM plays an important role in computers and generally the more RAM the higher intensity tasks the computer can handle. Generally most gaming computers have 8GBs of RAM and generally the newer varient of DDR4 isntead of DDR3 is the better option."
+                   FontSize="Medium"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

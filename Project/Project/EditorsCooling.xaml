@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.EditorsCooling"
+             BackgroundColor="Blue">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--Heading of the page-->
+                <Label Text="Editors Choice - Cooling!"
+                TextDecorations="Underline"
+                TextColor="White"
+                FontSize="Large"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--First Parahgraph-->
+                <Label Text="Coolermaster Hyper TX3 EVO - Editor's Choice"
+                TextDecorations="Underline"
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+
+                <!--Second Paragraph-->
+                <Label Text="The cooling I choose for the CPU is the Coolermaster Hyper TX3 EVO. I choose this as it is a very good product for the price and is great for any budget PC. This combined with the case which allows additional fans will create a great airflow path for your PC keeping all your main parts cooled."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--First Image-->
+                <Image Source="https://i.ytimg.com/vi/VAQLsbYPRAY/maxresdefault.jpg" Aspect="AspectFit"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+
+                <!--Third Parahgraph-->
+                <Label Text="There were many advantages and disadvantages to this cooling. Firstly the disadvantages. The cooling systems can be loud as it is fan based and does not come with any form of control , there is one setting and that's it. The advantages are that this is a great product for anyone on a budget and cannot afford water cooling and it really doesn't look bad at all once in the computer case."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--Second Image-->
+                <Image Source="https://i.ytimg.com/vi/FnqnzdJNphM/maxresdefault.jpg" Aspect="AspectFit"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+
+                <!--Fourth Parahgraph-->
+                <Label Text="Overall a great cooler - Would definitely recommend this for everyone's build."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--Fifth Parahgraph-->
+                <Label Text="Coolermaster Hyper TX3 EVO - Editor's Choice"
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

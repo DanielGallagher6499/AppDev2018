@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.GraphicsCard"
+             BackgroundColor="Blue">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <!--Heading of the page-->
+                <Label Text="Welcome to Graphics Card!"
+                TextDecorations="Underline"
+                FontSize="Large"
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--First paragraph-->
+                <Label Text="Most of the processing done on a computer is done via the computer's central processing unit, or CPU. So in order to give the CPU a break and help it run more efficiently, a video card can be used to process the graphics portion of the processing load. Because most of today's programs are graphically oriented, the video card can help almost any program run more efficiently. However, the difference in performance is especially noticeable in image editing applications and 3D games."
+                   TextColor="White"
+                   FontSize="Medium"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+
+                <!--First Image-->
+
+                <Image Source="https://www.73buzz.com/wp-content/uploads/2017/12/NVIDIA-GeForce-GTX-1080-Ti.jpg" Aspect="AspectFit"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"/>
+
+
+                <!--Second Paragraph-->
+                <Label Text="This is the GTX 1080ti in the above picture. This is a very high end gaming card. Although it is a good card the price tag on this is extemely high compared to other budget cards. Nvidia is one of the most reputable companies and has a wide variety of cards in prices and are very reliable but it very much depends on your needs for each card."
+                   FontSize="Medium"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+                <!--Second Image-->
+
+                <Image Source="https://images.wallpaperscraft.com/image/nvidia_geforce_titan_x_12gb_pc_gpu_vga_graphics_card_100862_1280x720.jpg" Aspect="AspectFit"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"/>
+
+                <!--Last Paragraph-->
+                <Label Text="The Graphics card or GPU plays a big role in any computer as it helps to handle the loads of the pc with the CPU as a team. The graphics card and CPU are very important in the PC. The GPU plays a large role in gaming computers because of the intense graphics and processes in the game."
+                   FontSize="Medium"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.EditorsRAM"
+             BackgroundColor="Blue">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--Heading of the page-->
+                <Label Text="Editors Choice - RAM!"
+                TextDecorations="Underline"
+                TextColor="White"
+                FontSize="Large"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--First Parahgraph-->
+                <Label Text="Hyper X 8GB DDR4 - Editor's Choice"
+                TextDecorations="Underline"
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+
+                <!--Second Paragraph-->
+                <Label Text="The RAM I choose for the build is the Hyper X 8GB DDR4. I choose this RAM as it is perfect for this build. It's the newest technology with DDR4 meaning it's faster than DDR3 and it's not even that expensive. This RAM is great and runs perfectly with all the other parts included in this build. It also comes in white which suits the build perfectly."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--First Image-->
+                <Image Source="https://i.ytimg.com/vi/RA4QWik6-4c/maxresdefault.jpg" Aspect="AspectFit"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+
+                <!--Third Parahgraph-->
+                <Label Text="There were many advantages and disadvantages to this RAM. Firstly the disadvantages. This RAM comes in two sticks. This may not seem like a disadvantage but this is actually taking up the limited slots in the motherboard to upgrade and would be much better as a one stick of 8GB rather than two 4GB sticks. The advanatages to this RAM is the price point as it is well in budget and the fact it is in DDR4 and not DDR3 means it will run better and faster and most of all perform better."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--Second Image-->
+                <Image Source="http://76.my/Malaysia/kingston-gaming-memory-hyperx-fury-ddr3-1866mhz-8gb-summereshop-1501-04-summerEshop@4.jpg" Aspect="AspectFit"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+
+                <!--Fourth Parahgraph-->
+                <Label Text="Overall a great RAM - Would definitely recommend this for everyone's build."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--Fifth Parahgraph-->
+                <Label Text="Hyper X 8GB DDR4 - Editor's Choice"
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

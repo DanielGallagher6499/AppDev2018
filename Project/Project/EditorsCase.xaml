@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.EditorsCase"
+             BackgroundColor="Blue">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--Heading of the page-->
+                <Label Text="Editors Choice - Case!"
+                TextDecorations="Underline"
+                TextColor="White"
+                FontSize="Large"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--First Parahgraph-->
+                <Label Text="BitFenix Nova - White - Editor's Choice"
+                TextDecorations="Underline"
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+
+                <!--Second Paragraph-->
+                <Label Text="The Case of choice for me is the Bitfenix Nova case in white. This case is the perfect size for a starting build and I feel like this case suits a budget build perfectly for the low price of $50 on www.amazon.com. This comes in a black or white varient and I personally choose the white as it is more aesthetically pleasing in my opinion."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+                
+                <!--First Image-->
+                <Image Source="https://i.ytimg.com/vi/71ZdgFDADLs/maxresdefault.jpg" Aspect="AspectFit"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+                
+                <!--Third Parahgraph-->
+                <Label Text="There were many advantages and disadvantages to this case. Firstly the disadvantages. The case is relatively small and can only fit certain parts into it and can be a squeeze to fit everything in. Secondly the ruduced space inside leads to a hard time while trying to manage your cables. The advantages are the case was extremely cheap and does its job, secondly I feel it is very nice looking and makes any build look good."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--Second Image-->
+                <Image Source="https://i.ytimg.com/vi/5OR1USCQCak/maxresdefault.jpg" Aspect="AspectFit"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+
+                <!--Fourth Parahgraph-->
+                <Label Text="Overall a great case - Would definitely recommend this for everyone's build."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--Fifth Parahgraph-->
+                <Label Text="BitFenix Nova - White - Editor's Choice"
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

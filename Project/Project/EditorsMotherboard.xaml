@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.EditorsMotherboard"
+             BackgroundColor="Blue">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--Heading of the page-->
+                <Label Text="Editors Choice - Motherboard!"
+                TextDecorations="Underline"
+                TextColor="White"
+                FontSize="Large"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--First Parahgraph-->
+                <Label Text="MSI Z370-A - Editor's Choice"
+                TextDecorations="Underline"
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+
+                <!--Second Paragraph-->
+                <Label Text="The motherboard I choose for the build is the MSI Z370-A. I choose this motherboard as it is the perfect size to fit into the case while also accomodating the inside needs for the parts. The motherboard is cheap and reliable and I feel this is the best option as with a small case the options are limited but this is the best option in this category."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--First Image-->
+                <Image Source="https://admin.admatechstore.app/vistas/img/cabeceras/msi-z370a-pro.jpg" Aspect="AspectFit"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+
+                <!--Third Parahgraph-->
+                <Label Text="There were many advantages and disadvantages to this motherboard. Firstly the disadvantages. This motherboard is good but it comes with limited extension slots for RAM. It comes with 4 sloths but while using 4GB sticks of RAM this space can become used very quickly. I also find the space between part is very small. The advantages are that this motherboard is cheap and does the job perfectly and comes with a PCI-E slot for the graphics card which is just a faster version of a PCI slot."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--Second Image-->
+                <Image Source="https://images-na.ssl-images-amazon.com/images/I/71otnWMtJ9L._SL1280_.jpg" Aspect="AspectFit"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+
+                <!--Fourth Parahgraph-->
+                <Label Text="Overall a great motherboartd - Would definitely recommend this for everyone's build."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--Fifth Parahgraph-->
+                <Label Text="MSI Z370-A - Editor's Choice"
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

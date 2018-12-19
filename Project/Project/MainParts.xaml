@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:MainParts="clr-namespace:Project"
+            x:Class="Project.MainParts"
+            BackgroundColor="White">
+  <!--All my pages are added below-->
+    <MainParts:Case Title="Case"/>
+    <MainParts:Motherboard Title="Motherboard"/>
+    <MainParts:GraphicsCard Title="GraphicsCard"/>
+    <MainParts:CPU Title="CPU"/>
+    <MainParts:RAM Title="RAM"/>
+    <MainParts:Cooling Title="Cooling"/>
+
+</TabbedPage>

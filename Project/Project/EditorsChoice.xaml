@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:EditorsChoice="clr-namespace:Project"
+            x:Class="Project.EditorsChoice">
+  <!--Pages can be added as references or inline-->
+    <EditorsChoice:EditorsCase Title="Editors Case"/>
+    <EditorsChoice:EditorsMotherboard Title="Editors Motherboard"/>
+    <EditorsChoice:EditorsGraphicsCard Title="Editors Graphics Card"/>
+    <EditorsChoice:EditorsCPU Title="Editors CPU"/>
+    <EditorsChoice:EditorsRAM Title="Editors RAM"/>
+    <EditorsChoice:EditorsCooling Title="Editors Cooling"/>
+</TabbedPage>

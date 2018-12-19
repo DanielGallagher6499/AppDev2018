@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Motherboard"
+             BackgroundColor="Blue">
+  
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <!--Top Text of the page-->
+            <Label Text="Welcome to Motherboards!"
+                   TextDecorations="Underline"
+                   FontSize="Large"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center" />
+             <!--Paragraph-->
+                <Label Text="In this section we will cover the use of motherboards. The motherboard is the main circuit board of your computer and is also known as the mainboard or logic board. If you ever open your computer, the biggest piece of silicon you see is the motherboard. Attached to the motherboard, you'll find the CPU, ROM, memory RAM expansion slots, PCI slots, and USB ports. It also includes controllers for devices like the hard drive, DVD drive, keyboard, and mouse. Basically, the motherboard is what makes everything in your computer work together."
+                   TextColor="White"
+                   FontSize="Medium"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+             
+            <!--Image of Motheboard-->
+                <Image Source="https://images-na.ssl-images-amazon.com/images/I/61Ac%2B6LEITL._SL1280_.jpg" Aspect="AspectFit"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+                
+            <!--Paragraph-->
+                <Label Text="Basically, the motherboard is what makes everything in your computer work together. Each motherboard has a collection of chips and controllers known as the chipset. When new motherboards are developed, they often use new chipsets. The good news is that these boards are typically more efficient and faster than their predecessors. The bad news is that older components often do not work with new chipsets. Of course, if you are planning on upgrading multiple components, it may be more cost-effective to just buy a new computer."
+                   FontSize="Medium"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+                
+            <!--Paragraph-->
+            <Label Text="Below are going to be pictures of some of the motherboards on the market today and their price. Motherboards are a highly essential part of any computer build and I personally suggest you invest at least €80 into a decent motherboard for your build"
+                   FontSize="Medium"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+           
+            <!--Image of MSI Z170I-->
+            <Image Source="https://edge.alluremedia.com.au/m/g/2016/01/msi_z170I_gaming_pro_itx_5.jpg" Aspect="AspectFit"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+               
+            <!--Information on the Z170i-->
+            <Label Text="The MSI Z170i is a gaming motherboard. Great motherboard for any build which costs €180 but will last a lifetime when installed correctly."
+                   FontSize="Medium"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+           
+            <!--Seond Image-->
+            <Image Source="https://i.ytimg.com/vi/r0vACJzmDtY/maxresdefault.jpg" Aspect="AspectFit"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            
+            <!--Image of gigabyte-->
+            <Label Text="This is the Gigabyte H110M which is a budget gaming motherboard costing €55 but won't last very long as technology changes and advances greatly."
+                   FontSize="Medium"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+
+
+
+
+
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

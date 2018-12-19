@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.EditorsCPU"
+             BackgroundColor="Blue">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <!--Heading of the page-->
+                <Label Text="Editors Choice - CPU!"
+                TextDecorations="Underline"
+                TextColor="White"
+                FontSize="Large"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--First Parahgraph-->
+                <Label Text="Intel Core i5 - 6600k - Editor's Choice"
+                TextDecorations="Underline"
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+
+                <!--Second Paragraph-->
+                <Label Text="The CPU I choose for the build is the i5-6600k. I choose this CPU as it is great for the price point. It is not too expensive and packs a punch. This CPU is also ideal for gaming and working on graphics or other things with your computer."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--First Image-->
+                <Image Source="https://heise.cloudimg.io/bound/1920x1920/q90.png-lossy-90.webp-lossy-90.foil1/_www-heise-de_/imgs/18/1/5/9/4/6/2/0/Core-i5-6600K-4526ba9a2478d36e.jpeg" Aspect="AspectFit"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+
+                <!--Third Parahgraph-->
+                <Label Text="There were many advantages and disadvantages to this CPU. Firstly the disadvantages. The CPU isn't the best CPU on the market and although it is good for gaming it cannot handle gaming and streaming or intensive processes running at the same time. The advantages of this CPU are that is is extremely cheap for the power it packs and it can also be highly overclocked leading to faster speeds."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--Second Image-->
+                <Image Source="https://hardverapro.hu/dl/uad/2016-09/3289748/14741843571718_b.jpg" Aspect="AspectFit"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+
+                <!--Fourth Parahgraph-->
+                <Label Text="Overall a great CPU - Would definitely recommend this for everyone's build."
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--Fifth Parahgraph-->
+                <Label Text="Intel Core i5-6600k - Editor's Choice"
+                TextColor="White"
+                FontSize="Medium"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.CPU"
+             BackgroundColor="Blue">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <!--Heading of the page-->
+                <Label Text="Welcome to CPU!"
+                TextDecorations="Underline"
+                FontSize="Large"
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--First paragraph-->
+                <Label Text="CPU Stands for central processing unit. The CPU is the primary component of a computer that processes instructions. It runs the operating system and applications, constantly receiving input from the user or active software programs. It processes the data and produces output, which may stored by an application or displayed on the screen."
+                   FontSize="Medium"
+                   TextColor="White"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+
+                <!--First Image-->
+
+                <Image Source="https://www.redsharknews.com/media/k2/items/src/4030549a12fbd462823688f433aa5b0e.jpg" Aspect="AspectFit"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"/>
+
+
+                <!--Second Paragraph-->
+                <Label Text="This is the intel i5-6600k. This is a very good budget pc gaming CPU. Although there are better CPU's this is a very reliable and good CPU for any build including a first build. It can be overclocked to 4.3GH/z which is outstanding but it all depends on cooling."
+                   FontSize="Medium"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+                <!--Second Image-->
+
+                <Image Source="https://heise.cloudimg.io/bound/1920x1920/q90.png-lossy-90.webp-lossy-90.foil1/_www-heise-de_/imgs/18/1/5/9/4/6/2/0/Core-i5-6600K-4526ba9a2478d36e.jpeg" Aspect="AspectFit"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"/>
+
+                <!--Last Paragraph-->
+                <Label Text="The CPU plays a big role in any build and althoigh there are many companies that make them , two stand out the most , intel and AMD. Intel have tended to dominate this market until recently when AMD have started to roll out better CPUs at cheaper prices putting alot of people into a position to swicth over. Generally intel tend to more reliable although AMD are a good option too."
+                   TextColor="White"
+                   FontSize="Medium"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+                <!--Image-->
+                <Image Source="https://pixfeeds.com/images/40/449531/1280-449531-471633016.png" Aspect="AspectFit"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

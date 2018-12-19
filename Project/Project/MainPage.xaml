@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Project"
+             x:Class="Project.MainPage">
+
+    <Grid>
+        <Image Source="http://www.usclimateplan.org/wp-content/uploads/2018/12/best-science-wallpaper-hd-for-desktop-background-computer-hd-fancy-images-pc-modest-1.jpg" Aspect="AspectFill" />
+
+
+
+        <StackLayout>
+            <!-- Place new controls here -->
+            <Label Text="Welcome to PC Part Centre" 
+             FontSize="Large"
+             TextColor="White"
+             BackgroundColor="Black"
+             HorizontalTextAlignment="Center"
+             VerticalTextAlignment="Center"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Vertical" VerticalOptions="Center">
+            <Label Text="Welcome to PC Part Centre! The app that provides you with information on computer building and the best budget PCs on the market."
+             FontSize="Medium"
+             TextColor="White"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             BackgroundColor="Black"
+             VerticalTextAlignment="Center"
+             HorizontalTextAlignment="Center"/>
+
+            <!--Paragraph2-->
+            <Label Text="Welcome to PC Part Centre! The app that provides you with information on computer building and the best budget PCs on the market."
+             FontSize="Medium"
+             TextColor="White"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             BackgroundColor="Black"
+             VerticalTextAlignment="Center"
+             HorizontalTextAlignment="Center"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Vertical" VerticalOptions="End">
+            <!-- Enter the application -->
+            <Button x:Name="Enter" Text="Enter the app!"
+                Clicked="MainPage_Clicked"
+                TextColor="Black"
+                BackgroundColor="White"
+               FontSize="Large"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

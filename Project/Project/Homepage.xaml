@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Homepage"
+             BackgroundColor="Blue">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Grid>
+                <!--Image Banner for the Page-->
+                <Image Source="https://gamehypermart.com/image/GHM/BLOG/Fixed/ultimate.jpg" Aspect="AspectFit"/>
+            </Grid>
+            
+
+            <!--Basic Information-->
+                <Grid>
+                    <Label Text="Welcome to PC Part Centre, The one stop shop for all information on PC parts and new innovative computing technology. Our misson is to help new and exisiting members of the online computing community to learn and gain knowledge on the specific parts of a computer and hopefully help the to then be able to use this knowledge to build their own gaming or business computer in the future."
+                   FontSize="Medium"
+                   TextColor="White"
+                   WidthRequest="1000"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"/>
+                </Grid>
+   
+
+
+            <!--Button for the Page-->
+            <Button x:Name="Tabbed_Page1" Text="Part Information!"
+                    Clicked="Tabbed1_Clicked"
+                    BackgroundColor="White"
+                    TextColor="Blue"
+                    FontSize="Medium"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"/>
+                <Button x:Name="Tabbed_Page2" Text="Editors Choice Build!"
+                    Clicked="Tabbed2_Clicked"
+                    BackgroundColor="White"
+                    TextColor="Blue"
+                    FontSize="Medium"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

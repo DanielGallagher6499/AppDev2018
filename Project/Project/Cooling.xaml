@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project.Cooling"
+             BackgroundColor="Blue">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <!--Heading of the page-->
+                <Label Text="Welcome to Cooling!"
+                TextDecorations="Underline"
+                FontSize="Large"
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"/>
+
+                <!--First paragraph-->
+                <Label Text="In computers, water cooling is a method used to lower the temperatures of computer processors, and sometimes other components such as graphics cards, using water rather than air as the cooling medium. Processor speeds have increased dramatically in recent years. As a result, the heat given off by processors has also increased, as has the noise associated with equipment, such as fans, used to keep them running at a safe temperature. Because water can conduct heat about 30 times faster than air can, a water cooling system allows the processor to run at higher speeds while drastically reducing system noise. Some industry experts predict that water cooling systems will become standard for personal computers in the near future."
+                   TextColor="White"
+                   FontSize="Medium"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+
+                <!--First Image-->
+
+                <Image Source="https://i.ytimg.com/vi/Dk3V64ZSsEI/maxresdefault.jpg" Aspect="AspectFit"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"/>
+
+
+                <!--Second Paragraph-->
+                <Label Text="The second method of cooling in a computer is fan cooling. This is when rotating fans inside the computer spin to reduce the internal heat of the computer and replace this warm air with cold air. This is a much cheaper way of cooling your computer especially if you are working inside a budget or have money constraints. Good fans can be just as good as water cooling although water cooling looks much better and can cool a computer much quicker."
+                   FontSize="Medium"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+                <!--Second Image-->
+
+                <Image Source="https://www.enermaxeu.com/wp-content/uploads/Products/CPU-Cooling/Air-Cooling/ETS-T50-AXE/Gallery/ets-t50_axe_gallery_10.jpg" Aspect="AspectFit"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"/>
+
+                <!--Last Paragraph-->
+                <Label Text="The cooling in a computer can be extremely important. If the parts of a computer become too hot it can lead to damage in the motherboard and CPU and other parts of the CPU."
+                   FontSize="Medium"
+                   TextColor="White"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
